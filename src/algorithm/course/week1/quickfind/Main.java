@@ -26,6 +26,7 @@ public class Main {
         System.out.println(quickUnionFind.connected(7,5));
         System.out.println(quickUnionFind.connected(3,4));
 
+        quickUnionFind.union(3,1);
 
         System.out.println(quickUnionFind.find(3));
     }
